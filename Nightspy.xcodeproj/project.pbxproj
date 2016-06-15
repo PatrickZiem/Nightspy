@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		304449F71D08992100F4E666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304449F61D08992100F4E666 /* main.m */; };
+		304449FA1D08992100F4E666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 304449F91D08992100F4E666 /* AppDelegate.m */; };
+		30444A021D08992100F4E666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30444A011D08992100F4E666 /* Assets.xcassets */; };
+		30444A051D08992100F4E666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30444A031D08992100F4E666 /* LaunchScreen.storyboard */; };
+		30444A101D08992100F4E666 /* NightspyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30444A0F1D08992100F4E666 /* NightspyTests.m */; };
+		30444A1B1D08992100F4E666 /* NightspyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30444A1A1D08992100F4E666 /* NightspyUITests.m */; };
+		30444A311D089AEE00F4E666 /* capacity10.png in Resources */ = {isa = PBXBuildFile; fileRef = 30444A281D089AEE00F4E666 /* capacity10.png */; };
+		30444A321D089AEE00F4E666 /* capacity20.png in Resources */ = {isa = PBXBuildFile; fileRef = 30444A291D089AEE00F4E666 /* capacity20.png */; };
+		30444A331D089AEE00F4E666 /* capacity35.png in Resources */ = {isa = PBXBuildFile; fileRef = 30444A2A1D089AEE00F4E666 /* capacity35.png */; };
+		30444A341D089AEE00F4E666 /* capacity45.png in Resources */ = {isa = PBXBuildFile; fileRef = 30444A2B1D089AEE00F4E666 /* capacity45.png */; };
+		30444A351D089AEE00F4E666 /* capacity60.png in Resources */ = {isa = PBXBuildFile; fileRef = 30444A2C1D089AEE00F4E666 /* capacity60.png */; };
+		30444A361D089AEE00F4E666 /* capacity85.png in Resources */ = {isa = PBXBuildFile; fileRef = 30444A2D1D089AEE00F4E666 /* capacity85.png */; };
+		30444A371D089AEE00F4E666 /* NightSpyBanner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30444A2E1D089AEE00F4E666 /* NightSpyBanner.jpg */; };
+		30444A381D089AEE00F4E666 /* NightSpyIcon512pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 30444A2F1D089AEE00F4E666 /* NightSpyIcon512pink.png */; };
+		30444A391D089AEE00F4E666 /* NightSpyIconLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 30444A301D089AEE00F4E666 /* NightSpyIconLogo.png */; };
+		30444A491D08B2DD00F4E666 /* PromoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30444A481D08B2DD00F4E666 /* PromoController.m */; };
+		30444A4C1D08B39100F4E666 /* PromoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30444A4B1D08B39100F4E666 /* PromoCell.m */; };
+		306E9AC81D0F44CD001FB2C4 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306E9AC71D0F44CD001FB2C4 /* DataController.m */; };
+		3074C1C11D08BF6200708398 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3074C1C01D08BF6200708398 /* DetailViewController.m */; };
+		30CA04841D0CB4080078F967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CA04821D0CB4080078F967 /* Main.storyboard */; };
+		30E63DFC1D0B73C80058CE5A /* ClubsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E63DFB1D0B73C80058CE5A /* ClubsListController.m */; };
+		30E63DFF1D0B75470058CE5A /* ClubsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E63DFE1D0B75470058CE5A /* ClubsListCell.m */; };
+		F7D3083E34E831D64C7E9C3B /* libPods-Nightspy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB768DE4AA4A2D3533CBD4F /* libPods-Nightspy.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30444A0C1D08992100F4E666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304449EA1D08992100F4E666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 304449F11D08992100F4E666;
+			remoteInfo = Nightspy;
+		};
+		30444A171D08992100F4E666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 304449EA1D08992100F4E666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 304449F11D08992100F4E666;
+			remoteInfo = Nightspy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		304449F21D08992100F4E666 /* Nightspy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nightspy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		304449F61D08992100F4E666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		304449F81D08992100F4E666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		304449F91D08992100F4E666 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30444A011D08992100F4E666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30444A041D08992100F4E666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30444A061D08992100F4E666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30444A0B1D08992100F4E666 /* NightspyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightspyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30444A0F1D08992100F4E666 /* NightspyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightspyTests.m; sourceTree = "<group>"; };
+		30444A111D08992100F4E666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30444A161D08992100F4E666 /* NightspyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightspyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30444A1A1D08992100F4E666 /* NightspyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightspyUITests.m; sourceTree = "<group>"; };
+		30444A1C1D08992100F4E666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30444A281D089AEE00F4E666 /* capacity10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = capacity10.png; path = ../../../../../Volumes/KINGSTON/capacity10.png; sourceTree = "<group>"; };
+		30444A291D089AEE00F4E666 /* capacity20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = capacity20.png; path = ../../../../../Volumes/KINGSTON/capacity20.png; sourceTree = "<group>"; };
+		30444A2A1D089AEE00F4E666 /* capacity35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = capacity35.png; path = ../../../../../Volumes/KINGSTON/capacity35.png; sourceTree = "<group>"; };
+		30444A2B1D089AEE00F4E666 /* capacity45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = capacity45.png; path = ../../../../../Volumes/KINGSTON/capacity45.png; sourceTree = "<group>"; };
+		30444A2C1D089AEE00F4E666 /* capacity60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = capacity60.png; path = ../../../../../Volumes/KINGSTON/capacity60.png; sourceTree = "<group>"; };
+		30444A2D1D089AEE00F4E666 /* capacity85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = capacity85.png; path = ../../../../../Volumes/KINGSTON/capacity85.png; sourceTree = "<group>"; };
+		30444A2E1D089AEE00F4E666 /* NightSpyBanner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NightSpyBanner.jpg; path = ../../../../../Volumes/KINGSTON/NightSpyBanner.jpg; sourceTree = "<group>"; };
+		30444A2F1D089AEE00F4E666 /* NightSpyIcon512pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NightSpyIcon512pink.png; path = /Volumes/KINGSTON/NightSpyIcon512pink.png; sourceTree = "<absolute>"; };
+		30444A301D089AEE00F4E666 /* NightSpyIconLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NightSpyIconLogo.png; path = /Volumes/KINGSTON/NightSpyIconLogo.png; sourceTree = "<absolute>"; };
+		30444A471D08B2DD00F4E666 /* PromoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromoController.h; sourceTree = "<group>"; };
+		30444A481D08B2DD00F4E666 /* PromoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromoController.m; sourceTree = "<group>"; };
+		30444A4A1D08B39100F4E666 /* PromoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromoCell.h; sourceTree = "<group>"; };
+		30444A4B1D08B39100F4E666 /* PromoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromoCell.m; sourceTree = "<group>"; };
+		306E9AC61D0F44CD001FB2C4 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		306E9AC71D0F44CD001FB2C4 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		3074C1BF1D08BF6200708398 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3074C1C01D08BF6200708398 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		30CA04831D0CB4080078F967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E63DFA1D0B73C80058CE5A /* ClubsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubsListController.h; sourceTree = "<group>"; };
+		30E63DFB1D0B73C80058CE5A /* ClubsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubsListController.m; sourceTree = "<group>"; };
+		30E63DFD1D0B75470058CE5A /* ClubsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClubsListCell.h; sourceTree = "<group>"; };
+		30E63DFE1D0B75470058CE5A /* ClubsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClubsListCell.m; sourceTree = "<group>"; };
+		899E63D4AB70E9A22676B5B0 /* Pods-Nightspy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nightspy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nightspy/Pods-Nightspy.release.xcconfig"; sourceTree = "<group>"; };
+		FBFC662A01E1447EDF908072 /* Pods-Nightspy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nightspy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nightspy/Pods-Nightspy.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB768DE4AA4A2D3533CBD4F /* libPods-Nightspy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Nightspy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		304449EF1D08992100F4E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D3083E34E831D64C7E9C3B /* libPods-Nightspy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30444A081D08992100F4E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30444A131D08992100F4E666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		304449E91D08992100F4E666 = {
+			isa = PBXGroup;
+			children = (
+				304449F41D08992100F4E666 /* Nightspy */,
+				30444A0E1D08992100F4E666 /* NightspyTests */,
+				30444A191D08992100F4E666 /* NightspyUITests */,
+				304449F31D08992100F4E666 /* Products */,
+				9CDA5D9F386973FBA818C28C /* Pods */,
+				A022F6CC27495503825900A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		304449F31D08992100F4E666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				304449F21D08992100F4E666 /* Nightspy.app */,
+				30444A0B1D08992100F4E666 /* NightspyTests.xctest */,
+				30444A161D08992100F4E666 /* NightspyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		304449F41D08992100F4E666 /* Nightspy */ = {
+			isa = PBXGroup;
+			children = (
+				30444A471D08B2DD00F4E666 /* PromoController.h */,
+				30444A481D08B2DD00F4E666 /* PromoController.m */,
+				30E63DFA1D0B73C80058CE5A /* ClubsListController.h */,
+				30E63DFB1D0B73C80058CE5A /* ClubsListController.m */,
+				30E63DFD1D0B75470058CE5A /* ClubsListCell.h */,
+				30E63DFE1D0B75470058CE5A /* ClubsListCell.m */,
+				30444A4A1D08B39100F4E666 /* PromoCell.h */,
+				30444A4B1D08B39100F4E666 /* PromoCell.m */,
+				3074C1BF1D08BF6200708398 /* DetailViewController.h */,
+				3074C1C01D08BF6200708398 /* DetailViewController.m */,
+				304449F81D08992100F4E666 /* AppDelegate.h */,
+				304449F91D08992100F4E666 /* AppDelegate.m */,
+				306E9AC61D0F44CD001FB2C4 /* DataController.h */,
+				306E9AC71D0F44CD001FB2C4 /* DataController.m */,
+				30444A011D08992100F4E666 /* Assets.xcassets */,
+				30CA04821D0CB4080078F967 /* Main.storyboard */,
+				30444A031D08992100F4E666 /* LaunchScreen.storyboard */,
+				30444A061D08992100F4E666 /* Info.plist */,
+				30444A281D089AEE00F4E666 /* capacity10.png */,
+				30444A291D089AEE00F4E666 /* capacity20.png */,
+				30444A2A1D089AEE00F4E666 /* capacity35.png */,
+				30444A2B1D089AEE00F4E666 /* capacity45.png */,
+				30444A2C1D089AEE00F4E666 /* capacity60.png */,
+				30444A2F1D089AEE00F4E666 /* NightSpyIcon512pink.png */,
+				30444A301D089AEE00F4E666 /* NightSpyIconLogo.png */,
+				30444A2D1D089AEE00F4E666 /* capacity85.png */,
+				30444A2E1D089AEE00F4E666 /* NightSpyBanner.jpg */,
+				304449F51D08992100F4E666 /* Supporting Files */,
+			);
+			path = Nightspy;
+			sourceTree = "<group>";
+		};
+		304449F51D08992100F4E666 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				304449F61D08992100F4E666 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30444A0E1D08992100F4E666 /* NightspyTests */ = {
+			isa = PBXGroup;
+			children = (
+				30444A0F1D08992100F4E666 /* NightspyTests.m */,
+				30444A111D08992100F4E666 /* Info.plist */,
+			);
+			path = NightspyTests;
+			sourceTree = "<group>";
+		};
+		30444A191D08992100F4E666 /* NightspyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30444A1A1D08992100F4E666 /* NightspyUITests.m */,
+				30444A1C1D08992100F4E666 /* Info.plist */,
+			);
+			path = NightspyUITests;
+			sourceTree = "<group>";
+		};
+		9CDA5D9F386973FBA818C28C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC662A01E1447EDF908072 /* Pods-Nightspy.debug.xcconfig */,
+				899E63D4AB70E9A22676B5B0 /* Pods-Nightspy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A022F6CC27495503825900A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB768DE4AA4A2D3533CBD4F /* libPods-Nightspy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		304449F11D08992100F4E666 /* Nightspy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30444A1F1D08992100F4E666 /* Build configuration list for PBXNativeTarget "Nightspy" */;
+			buildPhases = (
+				29080AFD05F699F912C6F077 /* [CP] Check Pods Manifest.lock */,
+				304449EE1D08992100F4E666 /* Sources */,
+				304449EF1D08992100F4E666 /* Frameworks */,
+				304449F01D08992100F4E666 /* Resources */,
+				CAA8B964B3924AA21AC6C645 /* [CP] Embed Pods Frameworks */,
+				2011D12FBBC4EC9E33D08600 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nightspy;
+			productName = Nightspy;
+			productReference = 304449F21D08992100F4E666 /* Nightspy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30444A0A1D08992100F4E666 /* NightspyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30444A221D08992100F4E666 /* Build configuration list for PBXNativeTarget "NightspyTests" */;
+			buildPhases = (
+				30444A071D08992100F4E666 /* Sources */,
+				30444A081D08992100F4E666 /* Frameworks */,
+				30444A091D08992100F4E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30444A0D1D08992100F4E666 /* PBXTargetDependency */,
+			);
+			name = NightspyTests;
+			productName = NightspyTests;
+			productReference = 30444A0B1D08992100F4E666 /* NightspyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30444A151D08992100F4E666 /* NightspyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30444A251D08992100F4E666 /* Build configuration list for PBXNativeTarget "NightspyUITests" */;
+			buildPhases = (
+				30444A121D08992100F4E666 /* Sources */,
+				30444A131D08992100F4E666 /* Frameworks */,
+				30444A141D08992100F4E666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30444A181D08992100F4E666 /* PBXTargetDependency */,
+			);
+			name = NightspyUITests;
+			productName = NightspyUITests;
+			productReference = 30444A161D08992100F4E666 /* NightspyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		304449EA1D08992100F4E666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ClubHub;
+				TargetAttributes = {
+					304449F11D08992100F4E666 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					30444A0A1D08992100F4E666 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 304449F11D08992100F4E666;
+					};
+					30444A151D08992100F4E666 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 304449F11D08992100F4E666;
+					};
+				};
+			};
+			buildConfigurationList = 304449ED1D08992100F4E666 /* Build configuration list for PBXProject "Nightspy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 304449E91D08992100F4E666;
+			productRefGroup = 304449F31D08992100F4E666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				304449F11D08992100F4E666 /* Nightspy */,
+				30444A0A1D08992100F4E666 /* NightspyTests */,
+				30444A151D08992100F4E666 /* NightspyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		304449F01D08992100F4E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30444A361D089AEE00F4E666 /* capacity85.png in Resources */,
+				30444A311D089AEE00F4E666 /* capacity10.png in Resources */,
+				30444A331D089AEE00F4E666 /* capacity35.png in Resources */,
+				30CA04841D0CB4080078F967 /* Main.storyboard in Resources */,
+				30444A371D089AEE00F4E666 /* NightSpyBanner.jpg in Resources */,
+				30444A051D08992100F4E666 /* LaunchScreen.storyboard in Resources */,
+				30444A021D08992100F4E666 /* Assets.xcassets in Resources */,
+				30444A341D089AEE00F4E666 /* capacity45.png in Resources */,
+				30444A351D089AEE00F4E666 /* capacity60.png in Resources */,
+				30444A321D089AEE00F4E666 /* capacity20.png in Resources */,
+				30444A381D089AEE00F4E666 /* NightSpyIcon512pink.png in Resources */,
+				30444A391D089AEE00F4E666 /* NightSpyIconLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30444A091D08992100F4E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30444A141D08992100F4E666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2011D12FBBC4EC9E33D08600 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nightspy/Pods-Nightspy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29080AFD05F699F912C6F077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA8B964B3924AA21AC6C645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nightspy/Pods-Nightspy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		304449EE1D08992100F4E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3074C1C11D08BF6200708398 /* DetailViewController.m in Sources */,
+				306E9AC81D0F44CD001FB2C4 /* DataController.m in Sources */,
+				30E63DFC1D0B73C80058CE5A /* ClubsListController.m in Sources */,
+				304449FA1D08992100F4E666 /* AppDelegate.m in Sources */,
+				30E63DFF1D0B75470058CE5A /* ClubsListCell.m in Sources */,
+				304449F71D08992100F4E666 /* main.m in Sources */,
+				30444A4C1D08B39100F4E666 /* PromoCell.m in Sources */,
+				30444A491D08B2DD00F4E666 /* PromoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30444A071D08992100F4E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30444A101D08992100F4E666 /* NightspyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30444A121D08992100F4E666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30444A1B1D08992100F4E666 /* NightspyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30444A0D1D08992100F4E666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 304449F11D08992100F4E666 /* Nightspy */;
+			targetProxy = 30444A0C1D08992100F4E666 /* PBXContainerItemProxy */;
+		};
+		30444A181D08992100F4E666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 304449F11D08992100F4E666 /* Nightspy */;
+			targetProxy = 30444A171D08992100F4E666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30444A031D08992100F4E666 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30444A041D08992100F4E666 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30CA04821D0CB4080078F967 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CA04831D0CB4080078F967 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30444A1D1D08992100F4E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30444A1E1D08992100F4E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30444A201D08992100F4E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFC662A01E1447EDF908072 /* Pods-Nightspy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Nightspy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClubHub.Nightspy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30444A211D08992100F4E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899E63D4AB70E9A22676B5B0 /* Pods-Nightspy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Nightspy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClubHub.Nightspy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30444A231D08992100F4E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NightspyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClubHub.NightspyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nightspy.app/Nightspy";
+			};
+			name = Debug;
+		};
+		30444A241D08992100F4E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NightspyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClubHub.NightspyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nightspy.app/Nightspy";
+			};
+			name = Release;
+		};
+		30444A261D08992100F4E666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NightspyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClubHub.NightspyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nightspy;
+			};
+			name = Debug;
+		};
+		30444A271D08992100F4E666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NightspyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ClubHub.NightspyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Nightspy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		304449ED1D08992100F4E666 /* Build configuration list for PBXProject "Nightspy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30444A1D1D08992100F4E666 /* Debug */,
+				30444A1E1D08992100F4E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30444A1F1D08992100F4E666 /* Build configuration list for PBXNativeTarget "Nightspy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30444A201D08992100F4E666 /* Debug */,
+				30444A211D08992100F4E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30444A221D08992100F4E666 /* Build configuration list for PBXNativeTarget "NightspyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30444A231D08992100F4E666 /* Debug */,
+				30444A241D08992100F4E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30444A251D08992100F4E666 /* Build configuration list for PBXNativeTarget "NightspyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30444A261D08992100F4E666 /* Debug */,
+				30444A271D08992100F4E666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 304449EA1D08992100F4E666 /* Project object */;
+}
